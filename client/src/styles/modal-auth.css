@@ -1,0 +1,134 @@
+.modalAuth {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aliceblue;
+  color: var(--primary-black);
+  padding: 20px;
+  border-radius: 5px;
+  width: fit-content;
+  height: auto;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 50px 130px;
+  .modalContent > h1 {
+    padding-top: 20px;
+  }
+
+  .login-form {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    font-size: medium;
+    min-width: 310px;
+
+    .inputs {
+      outline: none;
+      margin: 5px 10px;
+      border-radius: 3px;
+      border: 1px solid #e2e2ed;
+      color: var(--primary-black);
+      background-color: var(--primary-white);
+      border-radius: 5px;
+      width: 300px;
+      margin-left: 10px;
+      padding-left: 7px;
+      background-color: #fff;
+      -webkit-transition: -webkit-transform 0.2s;
+      transition: -webkit-transform 0.2s;
+      transition: transform 0.2s;
+      transition: transform 0.2s, -webkit-transform 0.2s;
+      transition: border 0.3s;
+    }
+    .inputs:focus {
+      border-color: #09abc3;
+    }
+
+    button[type="submit"] {
+      background-color: var(--primary-blue);
+      padding: 5px;
+      border-radius: 5px;
+      margin: 50px 0 20px 0;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  section {
+    max-width: 390px;
+    margin: 10px;
+  }
+  .googleAuth,
+  .facebookAuth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid var(--primary-black);
+    margin-bottom: 10px;
+    min-height: 30px;
+    .providers {
+      margin-left: 10px;
+    }
+  }
+}
+
+.modalBackdropLog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  overflow: hidden;
+}
+
+/* Portátil y tablets */
+@media (width <= 1200px) and (width >= 767px) {
+  .modalAuth {
+    .login-form {
+      align-items: end;
+      width: 430px;
+    }
+  }
+}
+
+/* Moviles */
+@media only screen and (width <= 766px) {
+  .modalAuth {
+    height: fit-content;
+    width: 90vw;
+    padding: 20px;
+    padding-top: 0;
+
+    .login-form {
+      max-width: 310px;
+      .inputs {
+        width: 200px;
+      }
+      .password-container {
+        width: 200px;
+        svg {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .providers-log {
+      width: 290px;
+    }
+
+    .modalContent > h1 {
+      padding-top: 50px;
+      font-size: 40px;
+    }
+  }
+}
