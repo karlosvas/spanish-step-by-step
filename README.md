@@ -1,43 +1,14 @@
-# Marta - Spanish Teacher
+# Ana - Spanish Teacher from Spanish Step by Step(beta)
 
-Welcome to the official website of Marta, your trusted Spanish teacher. Here you'll find all the necessary information about her classes, prices, and teaching methods.  
-**Official URL: https://thefluentspanishhouse.vercel.app**
+Welcome to the official website of Ana Ortega Gutiérrez, your dedicated Spanish teacher. With a passion for language and culture, Ana is here to guide you on your journey to fluency.
 
-## About Marta
+## About Ana
 
-Marta is a Spanish teacher with years of experience teaching students of all ages and levels. Her dynamic and personalized approach has helped many students achieve their language goals.
+Ana is an experienced Spanish teacher who believes in making learning enjoyable and effective. She tailors her classes to meet the individual needs of her students, whether you're a beginner or looking to polish your skills. With her engaging teaching style, you'll be speaking Spanish in no time!
 
-## Classes
+## How to Book a Class
 
-We offer a variety of classes to suit your needs:
-
-- **Individual Classes:** Perfect for personalized attention and learning at your own pace.
-- **Group Classes:** Ideal for learning in a collaborative environment and making new friends.
-- **Online Classes:** Complete flexibility to learn from anywhere in the world.
-
-## Prices
-
-Class prices vary depending on the type and duration. Here's a breakdown:
-
-- **Individual Classes: €21**
-
-- **Group Classes: €15**
-  
-- **Free Beginner Classes with Test Included: €0**
-
-## Contact
-
-For more information or to book a class, you can contact Marta through:
-
-- **Email:** mar411geca@gmail.com
-- **Phone:** +34 617 286 125
-- [Contact Form](https://thefluentspanishhouse.vercel.app/contact)
-
-## Social Media
-
-Follow me on my social media to stay updated with the latest news and promotions!
-
-- [Facebook](https://www.facebook.com/thefluentspanishhouse/)
+You can easily reserve a class or contact Ana through [iTalki](https://www.italki.com/es). Join her classes and immerse yourself in the Spanish language and culture!
 
 ## Contributions
 
@@ -54,3 +25,4 @@ This project is under the MIT License. For more details, see the [LICENSE](LICEN
 ---
 
 We hope you enjoy learning Spanish with me. See you in class!
+
